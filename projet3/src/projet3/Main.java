@@ -7,7 +7,7 @@ public class Main {
 		int money = 5000;
 		
 		if(money == 5008) {
-			System.out.println("oui");
+			System.out.println("yeeeeees");
 			
 		}
 		else {
