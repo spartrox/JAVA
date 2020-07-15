@@ -4,16 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int money = 5000;
-		
-		if(money == 5008) {
-			System.out.println("yeeeees");
-			
-		}
-		else {
-			System.out.println("non");
-		}
 
+		
+		int[] notes = { 12, 16, 15, 18};
+		int calcul = 0;
+		
+		for(int note : notes) {
+			calcul = calcul + note;
+		}
+		System.out.println("La moyenne de l'élève est de : " + (calcul / notes.length));
 	}
 
 }
