@@ -12,7 +12,7 @@ public class Main {
 		for(int note : notes) {
 			calcul = calcul + note;
 		}
-		System.out.println("La moyenne de l'élève est  : " + (calcul / notes.length) + "de moyenne");
+		System.out.println("La moyenne de l'élève est  : " + (calcul / notes.length) + " de moyenne générale");
 	}
 
 }
