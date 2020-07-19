@@ -4,15 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-
+		Player player1 = new Player("Spartrox", 30, 400);
+		System.out.println("vie : " + player1.getHealth());
+		player1.damage(50);
+		System.out.println("vie : " + player1.getHealth());
 		
-		int[] notes = { 12, 16, 15, 18};
-		int calcul = 0;
+		Player player2 = new Player("Bina", 20, 300);
+		player2.setName("Test");
 		
-		for(int note : notes) {
-			calcul = calcul + note;
-		}
-		System.out.println("La moyenne de l'élève est  : " + (calcul / notes.length) + " de moyenne .");
+				
 	}
 
 }
