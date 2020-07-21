@@ -11,7 +11,7 @@ public class Main {
 		
 		Player player2 = new Player("Bina", 20, 300);
 		player2.setName("Test");
-		player1.damage(40);
+		player1.damage(50);
 		player2.setName("Test");
 		
 				
