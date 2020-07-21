@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Player player1 = new Player("Spartrox", 30, 400);
-		System.out.println("vie : " + player1.getHealth());
-		player1.damage(130);
-		System.out.println("vie : " + player1.getHealth());
+		System.out.println("vie de départ : " + player1.getHealth());
+		player1.damage(50);
+		System.out.println("point de vie : " + player1.getHealth());
 		
 
 
