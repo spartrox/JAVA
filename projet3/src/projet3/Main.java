@@ -10,7 +10,7 @@ public class Main {
 		a.taste();
 		
 		if(!(a instanceof PeelFruit)) {
-			System.out.println("Ce fruit ne fais rien");
+			System.out.println("Ce fruit ne fais rien .");
 		}
 		
 		
