@@ -9,6 +9,13 @@ public class Main {
 		a.miam();
 		a.taste();
 		
+		if(!(a instanceof PeelFruit)) {
+			System.out.println("Ce fruit ne fais rien");
+		}
+		
+		
+		
+		
 
 
 		

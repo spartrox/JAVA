@@ -1,11 +1,11 @@
 package projet3;
 
-public class Apple extends Fruit {
+public class Fraise extends Fruit{
 
 	@Override
 	public void taste() {
-		System.out.println("La pomme à un goût sucré .");
-		super.miam();
+		System.out.println("La fraise est super bonne .");
+		
 	}
 
 	@Override

@@ -1,6 +1,8 @@
 package projet3;
 
-public class PineApple extends Fruit {
+public class PineApple extends Fruit implements PeelFruit {
+	
+	private boolean peeled = false;
 
 	@Override
 	public void taste() {
@@ -18,6 +20,18 @@ public class PineApple extends Fruit {
 	public boolean hasSeed() {
 		
 		return true;
+	}
+
+	@Override
+	public boolean isPeeled() {
+		// TODO Auto-generated method stub
+		return peeled;
+	}
+
+	@Override
+	public String getSkinType() {
+		// TODO Auto-generated method stub
+		return " piquante ";
 	}
 
 }
