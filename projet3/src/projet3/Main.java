@@ -1,12 +1,18 @@
 package projet3;
 
+import java.util.ArrayList;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-		for(Day moment : Day.values()) {
-			System.out.println(" Nous sommes actuellement le " + moment.name().toLowerCase() + " il est actuellement : " + moment.getHeure() + "h . " + moment.getMessage());
-		}
+		ArrayList list = new ArrayList();
+		list.add(25);
+		list.add("Text");
+		list.add(new Object());
+		
+		System.out.println(list);
+				
 		
 		
 		
