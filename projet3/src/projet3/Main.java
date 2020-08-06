@@ -19,6 +19,17 @@ public class Main {
 		
 		
 		
+		int[] numbers = { 4, 18 , 25, 52};
+		
+		try {
+			System.out.println(numbers[5]);
+			
+		} catch(ArrayIndexOutOfBoundsException e) {
+			
+			System.out.println("l'erreur est ici");
+		} finally{
+			System.out.println(" Finalement je met quand même l'erreur");
+		}
 		
 		
 		
