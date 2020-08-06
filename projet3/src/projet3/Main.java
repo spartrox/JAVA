@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NouvelleExeption {
 				
 		
 		
@@ -31,14 +31,25 @@ public class Main {
 			System.out.println(" Finalement je met quand même l'erreur");
 		}
 		
+		double balance = 5000;
+		double price = 5001;
+		buy(balance, price);
 		
-		
-		
-		
-
-
-		
+			
 				
+	}
+
+	private static void buy(double balance, double price) throws NouvelleExeption {
+		
+		double b = balance - price;
+		
+		if(b < 0)
+		{
+			throw new NouvelleExeption();
+		}
+		
+		System.out.println(b);
+		
 	}
 
 }
