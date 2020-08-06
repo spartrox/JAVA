@@ -28,7 +28,7 @@ public class Main {
 			
 			System.out.println("l'erreur est ici");
 		} finally{
-			System.out.println(" Finalement je met quand même l'erreur");
+			System.out.println("Finalement je met quand même l'erreur");
 		}
 		
 		double balance = 5000;
