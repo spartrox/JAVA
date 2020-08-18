@@ -12,7 +12,7 @@ public class Main {
 		
 		Map<String, Integer> ages = new HashMap<>();
 		
-		ages.put("Spartrox", 22);
+		ages.put("Spartrox", 22 );
 		ages.put("Sabrina", 23);
 		
 		System.out.println(ages);
