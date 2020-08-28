@@ -15,7 +15,7 @@ public class Main {
 		ages.put("Spartrox ", 22 );
 		ages.put("Sabrina", 23);
 		
-		System.out.println(ages);
+		System.out.println(ages );
 		
 		
 		
