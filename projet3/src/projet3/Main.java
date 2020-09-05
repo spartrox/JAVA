@@ -33,7 +33,7 @@ public class Main {
 		
 		double balance = 5000;
 		double price = 4500;
-		buy(balance,price);
+		buy(balance, price);
 		
 			
 				
